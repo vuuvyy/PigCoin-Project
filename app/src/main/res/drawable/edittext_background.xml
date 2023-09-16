@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- Màu nền của EditText -->
+    <corners android:radius="6dp" /> <!-- Bo góc của EditText -->
+    <stroke
+        android:width="3dp"
+        android:color="#CCCCCC" /> <!-- Viền của EditText -->
+<!--    <padding-->
+<!--        android:left="30dp"-->
+<!--        android:right="86dp"-->
+<!--        android:top="9dp"-->
+<!--        android:bottom="9dp"/> &lt;!&ndash; Viền của EditText &ndash;&gt;-->
+</shape>

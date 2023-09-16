@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_item_thongkevi"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="#585A5C"
+    android:gravity="center|center_vertical">
+
+    <LinearLayout
+        android:id="@+id/vidangsudung"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center|center_horizontal"
+        android:orientation="horizontal">
+
+        <!-- Hiển thị hình ảnh của hạng mục -->
+
+        <!-- Hiển thị chữ của hạng mục -->
+        <ImageView
+            android:id="@+id/imgLoaiVi"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/meal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Tên hạng mục"
+                android:textColor="#fff"
+
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvTien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Tên hạng mục"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

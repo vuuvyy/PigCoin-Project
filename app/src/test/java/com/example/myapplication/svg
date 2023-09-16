@@ -1,0 +1,13 @@
+SVG svg = null;
+try {
+    InputStream inputStream = getAssets().open("svg/your_svg_file.svg");
+    svg = SVG.getFromInputStream(inputStream);
+    inputStream.close();
+} catch (IOException e) {
+    e.printStackTrace();
+}
+
+if (svg != null) {
+    PictureDrawable drawable = new PictureDrawable(svg.renderToPicture());
+    imageView.setImageDrawable(drawable);
+}

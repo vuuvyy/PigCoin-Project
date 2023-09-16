@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e1e1e"
+    tools:context=".View.Account_Info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Thông tin cơ bản"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Tên người dùng"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editDisplayName"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_background"
+                android:ems="10"
+                android:hint="Tên người dùng"
+                android:inputType="text"
+                android:paddingLeft="20dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnChange"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Đổi tên" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Mật khẩu"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_background"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp" />
+
+            <ImageView
+                android:id="@+id/imgViewPass"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/baseline_visibility_24" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Nhập lại mật khẩu"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_background"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editConfirmPass"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:hint="Nhập lại mật khẩu"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp" />
+
+            <ImageView
+                android:id="@+id/imgView_ConfirmPass"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/baseline_visibility_24" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnUpdatePass"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:background="@drawable/button_line"
+                android:text="Đổi Pass"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnExit"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center"
+                android:layout_marginLeft="9dp"
+                android:background="@drawable/buttonline_exit"
+                android:text="Đăng Xuất"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

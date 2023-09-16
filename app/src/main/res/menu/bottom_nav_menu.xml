@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeItem"
+        android:icon="@drawable/homelight"
+        android:title="Tổng quan" />
+    <item
+        android:id="@+id/walletItem"
+        android:icon="@drawable/walletmenu"
+        android:title="Ví" />
+    <item
+
+        android:title="" />
+    <item
+        android:id="@+id/chartItem"
+        android:icon="@drawable/chart_light"
+        android:title="Báo cáo" />
+    <item
+        android:id="@+id/settingItem"
+        android:icon="@drawable/setting_line_light"
+        android:title="Cài đặt" />
+</menu>
